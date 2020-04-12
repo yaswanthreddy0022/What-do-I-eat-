@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int main()
+{ 
+   int x;
+   scanf("%d",&x);// all items along with price is mentioned in output
+   switch(x) //using switch case for selecting food
+   { 
+     case 1:printf("food item-Pizza \n price-239/-");//pizza is selected when 1 is entered
+      break;
+      case 2:printf("food item - burger \n pice-129/-");//burger is selected when 2 is entered
+      break;
+      case 3:printf("food item - pasta \n price - 179/- ");//pasta is selected when 3is enetered
+      break;
+      case 4:printf("food item - French fries \n price - 99/-");//French fries is selected when 4 is entered 
+      break;
+      case 5:printf("food item-sandwich \n price -149/- ");//sandwich is selected when 5is enetered
+      break;
+   } 
+    return 0;
+}
